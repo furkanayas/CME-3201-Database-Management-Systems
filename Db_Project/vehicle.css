@@ -1,0 +1,401 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    float: left;    
+   
+}
+.banner {
+    width: 1280px;
+    height: 100px;
+    background-color: #c09f80;
+
+    text-align: center;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    font-size: 50px;
+    line-height:100px;
+
+}
+
+.container2 {
+    width: 1280px;
+    height: 34px;
+    background-color: #d7cec7;
+    border-bottom: 1px solid;
+    border-bottom-color: #72363f;
+    
+}
+
+.backmainpage {
+    width: 100px;
+    height: 35px;
+    background-color: #c09f80;
+    margin: 2px 1180px 2px 0px;
+    float:left;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color:#FFFFFF;
+    font-weight:300; 
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    line-height:35px
+  
+}
+
+.container3 {
+    width: 220px;
+    height: 755px; 
+    background-color: #d7cec7;
+    float: left;
+}
+
+.container4 {
+    width: 1060px;
+    height: 755px;
+    float: left;
+    background-color:  #caaf99;
+  
+}
+.textarea {
+    width: 750px;
+    height: 55px;
+    background-color: #E7DFDD;
+    margin: 15px 50px 30px 0px;
+    float:left;
+    text-align: center;
+}
+.textarea:hover{
+    background-color: #72363f;
+}
+
+.box{
+    
+    width: 200px;
+    height: 20px;
+    background-color: #c09f80;
+    margin: 5px 10px;
+    float:left;
+    
+    font-size: 15px;
+    text-align: center;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius: 5px;
+    color:rgb(29, 21, 21);
+    font-weight:300; 
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    line-height:20px
+    
+   
+}
+
+.boxx{
+    
+    width: 250px;
+    height: 55px;
+    background-color: #c09f80;
+    margin: 0px 10px;
+    float:left;
+    
+    font-size: 15px;
+    text-align: center;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color:#FFFFFF;
+    font-weight:300; 
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    line-height:55px
+    
+   
+}
+.boxx:hover{
+
+    border-color: #E7DFDD;
+    background-color: #72363f;
+}
+
+
+.menuboxx{
+    
+    width: 120px;
+    height: 40px;
+    background-color: #c09f80;
+    margin: 15px 10px 5px 10px;
+    float:left;
+    
+    font-size: 15px;
+    text-align: center;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color:#FFFFFF;
+    font-weight:300; 
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    line-height:40px;
+    
+   
+}
+.menuboxx:hover{
+
+    border-color: #E7DFDD;
+    background-color: #72363f;
+}
+
+input[type=submit] {
+    width: 250px;
+    height: 63px;
+    background-color: #c09f80;
+    margin: 0px 10px;
+    float:left;
+    content: "Submit";
+    
+    font-size: 15px;
+    text-align: center;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color:#FFFFFF;
+    font-weight:300; 
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    line-height:55px
+ }
+ input[type=submit]:hover{
+    border-color: #E7DFDD;
+    background-color: #72363f;
+    cursor: pointer;
+ }
+
+ 
+
+
+.signinbutton {
+    width:220px;
+    height: 45px;
+    background-color:rgb(0, 105, 204);
+    margin: 10px 20px 5px 400px;
+    float:left;
+   
+}
+
+.forgetpasswordbutton {
+    width: 220px;
+    height: 45px;
+    background-color:rgb(0, 197, 204);
+    margin: 10px 400px 5px 20px;
+    float:left;
+   
+}
+
+.footer {
+    clear:both;
+    width: 1280px;
+    height: 25px;
+    background-color: #72363f;
+}
+
+
+
+#car {
+    width: 1043px;
+    height: 240px;
+    background-color:rgb(7, 5, 5);
+    border: solid 1px;
+    border-color: #d7cec7;
+    margin: 4px 9px;
+    float:left;
+
+
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: #d3c1c3;
+    }
+    #car .image {
+        width: 427px;
+        height: 240px;
+        float:left;
+        background-color: #b3a5a7;
+    }
+
+
+
+    
+    #car .brand {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+    #car .model {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+    #car .advertno {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+    #car .prodyear {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+
+
+
+    
+
+
+
+
+
+    #car .km{
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .color {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .price {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .advertdate {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+
+
+    #car .type {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .fueltype{
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .geartype {
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #d7cec7;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+    #car .plate{
+        width: 154px;
+        height: 80px;
+        float:left;
+        background-color: #ccc7c3;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        color:  #8f623e;
+        text-shadow: #72363f;
+    }
+
+
+    
+   
+
+
+
+
+p {
+    margin: 15px;
+ }
+ .p1{
+     line-height: 10px;
+ }
+
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s;
+    font-size: 22px;
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

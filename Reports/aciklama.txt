@@ -1,0 +1,1 @@
+soldaki database in xampp daki klasörleri, sağdaki veri tabanının export edilmiş hali.

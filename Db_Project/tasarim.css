@@ -1,0 +1,77 @@
+.container {
+        width: 760px;
+        margin: 0 auto;
+        border: 1px solid #0F0;
+}
+.banner {
+        width: 760px;
+        height: 100px;
+        background-color: #CC0;
+}
+.sol_tus {
+        width: 200px;
+        height: 80px;
+        background-color:#0C9;
+        margin: 100px 0 100px 150px;
+        float:left;
+       
+}
+.sag_tus {
+        width: 200px;
+        height: 80px;
+        background-color:#F90;
+        margin:  100px 150px 100px 60px;
+        float:left;
+}
+.footer {
+        clear:both;
+        width: 760px;
+        height: 80px;
+        background-color: #F06;
+}
+.textortaya
+{              
+      
+        margin-right:10%;  
+        margin-left:10%;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 30px;
+           
+}
+
+/* vertical-align: middle;
+// padding-top: 30px;
+ margin-left:10%; text-align: center;
+        margin-right:10%;
+div.container {
+        border: 1px solid #000000;
+        overflow: hidden;
+        width: 100%;
+}
+div.sol {
+        width: 40%;
+        float: left;
+        background-color:#66FF33;
+}
+div.sag {
+        width: 60%;
+        float: right;
+        background-color:#F5B800;
+}
+
+
+<div class="container" style="overflow: hidden; width: 100%;">
+        <div class="sol">
+                <p> sol kolon.</p>
+                <p> sol kolon.</p>
+                <p> sol kolon.</p>
+                <p> sol kolon.</p>
+        </div>
+        <div class="sag">
+                <p> sag kolon.</p>
+                <p> sag kolon.</p>
+                <p> sag kolon.</p>
+        </div>
+</div> //<style type="text/css" rel="stylesheet">
+</style>*/

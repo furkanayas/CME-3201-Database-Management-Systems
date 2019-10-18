@@ -1,0 +1,92 @@
+<?php/*
+#$sorgu = mysqli_query($con,"SELECT * FROM Vehicle Where V_brand = 'Bentley'");
+$sorgu = mysqli_query($con,"SELECT * FROM Vehicle");
+#$sorgu=mysql_query("select * from ogrenciler");
+?>
+<table style="width: 760px; border: yellow 3px ridge;" border="10">
+    <tr style="background: black; color: white;">
+    <th>V_price</th>
+    <th>V_advert_no</th>
+    <th>V_advert_date</th>
+    <th>V_brand</th>
+    <th>V_model</th>
+    <th>V_type</th>
+    <th>V_product_of_year</th>
+    <th>V_fuel_type</th>
+    <th>V_gear_type</th>
+    <th>V_km</th>
+    <th>V_color</th>
+    <th>V_plate</th>
+    </tr>
+ 
+<?
+#$Vehicle=mysqli_fetch_array($sorgu)
+while($Vehicle = mysqli_fetch_array($sorgu))
+{
+    echo '<tr>';
+ 
+    echo '<td align="center">'.$Vehicle['V_price'].'</td>';
+    echo '<td>'.$Vehicle['V_advert_no'].'</td>';
+    echo '<td>'.$Vehicle['V_advert_date'].'</td>';
+    echo '<td>'.$Vehicle['V_brand'].'</td>';
+    echo '<td>'.$Vehicle['V_model'].'</td>';
+    echo '<td>'.$Vehicle['V_type'].'</td>';
+    echo '<td>'.$Vehicle['V_product_of_year'].'</td>';
+    echo '<td>'.$Vehicle['V_fuel_type'].'</td>';
+    echo '<td>'.$Vehicle['V_gear_type'].'</td>';
+    echo '<td>'.$Vehicle['V_km'].'</td>';
+    echo '<td>'.$Vehicle['V_color'].'</td>';
+    echo '<td>'.$Vehicle['V_plate'].'</td>';
+    echo '</tr>';
+}
+*/
+
+/*
+
+<th>V_price</th>
+<th>V_advert_no</th>
+<th>V_advert_date</th>
+<th>V_brand</th>
+<th>_model</th>
+<th>V_type</th>
+<th>V_product_of_year</th>
+<th>V_fuel_type</th>
+<th>V_gear_type</th>
+<th>V_km</th>
+<th>V_color</th>
+<th>V_plate</th>
+
+
+
+
+
+
+$Name = "Furkan";
+$Surname = "Ayas";
+$Age = 22;
+$City = "İzmir";
+
+$val = mysqli_fetch_array(mysqli_query($con,"SELECT * FROM User Where U_name = 'Furkan'"));
+$name =$val['U_password'];
+
+echo $name;*/
+
+/*
+if($_POST)
+{
+$sorgu = mysqli_query($con,"SELECT * FROM User Where U_name ='$_POST[username]' and U_password = '$_POST[password]'");
+$varmi = mysqli_num_rows($sorgu);
+$x = 3;
+if($varmi >= 1)
+{
+ echo"kullanici girisi yapıldi";
+ $x = 1;
+}
+else
+{
+ echo'kullanici bilgileri eslesmedi';
+ $x = 0;
+}
+}
+*/
+?>
